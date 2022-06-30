@@ -4,8 +4,12 @@ function move_up_women() {
     divElement.scrollIntoView()
 }
 
-const womenClick = document.getElementById('womenId')
+let womenClick = document.getElementById('womenId')
+let womenClick1 = document.getElementById('womenId1')
+
 womenClick.addEventListener('click', move_up_women)
+womenClick1.addEventListener('click', move_up_women)
+
 
 // Men navigation
 function move_up_men() {
@@ -15,4 +19,7 @@ function move_up_men() {
 }
 
 const menClick = document.getElementById('menId')
+const menClick1 = document.getElementById('menId1')
+
 menClick.addEventListener('click', move_up_men)
+menClick1.addEventListener('click', move_up_men)
